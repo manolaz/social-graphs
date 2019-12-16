@@ -1,6 +1,11 @@
 # social-graphs
 Exploid all pairs connected COMMUNITIES  (CLIQUE) in a undirected (Biconnected) graph.
 
+## Install Louvain LIB
+
+```bash
+pip install python-louvain
+```
 
 Using Community library
 https://github.com/taynaud/python-louvain

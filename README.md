@@ -27,8 +27,14 @@ Average degree:  46.1800
 
 
 ## Using Community library
+
+### Py3plex
 https://github.com/SkBlaz/Py3plex
+### Docs
+https://skblaz.github.io/Py3plex/
+
+
+### PYTHON-LOUVAIN
 https://github.com/taynaud/python-louvain
 ### ClI DOCS
-https://skblaz.github.io/Py3plex/
 https://python-louvain.readthedocs.io/en/latest/api.html#indices-and-tables

@@ -1,14 +1,34 @@
 # social-graphs
 Exploid all pairs connected COMMUNITIES  (CLIQUE) in a undirected (Biconnected) graph.
 
-## Install Louvain LIB
+## Install Libraries
 
 ```bash
-pip install python-louvain
+pip3 install py3plex
 ```
 
-Using Community library
-https://github.com/taynaud/python-louvain
+## Run EXAMPLE
+```bash
+python3 example/detector.py
+```
 
-ClI DOCS
+```text
+Checking multiplex edges.. 
+ --------------------
+Name: 
+Type: Graph
+Number of nodes: 200
+Number of edges: 4618
+Average degree:  46.1800
+'Graph' object has no attribute 'core_network'
+{0: 29, 1: 31, 2: 34, 3: 32, 4: 21, 5: 19, 6: 34}
+[0, 1, 2, 3, 4, 5, 6]
+```
+
+
+## Using Community library
+https://github.com/SkBlaz/Py3plex
+https://github.com/taynaud/python-louvain
+### ClI DOCS
+https://skblaz.github.io/Py3plex/
 https://python-louvain.readthedocs.io/en/latest/api.html#indices-and-tables

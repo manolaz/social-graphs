@@ -13,16 +13,18 @@ python3 example/detector.py
 ```
 
 ```text
-Checking multiplex edges.. 
+-------------------- 
+ Checking multiplex edges.. 
  --------------------
 Name: 
 Type: Graph
-Number of nodes: 200
-Number of edges: 4618
-Average degree:  46.1800
+Number of nodes: 1000
+Number of edges: 168093
+Average degree: 336.1860
 'Graph' object has no attribute 'core_network'
-{0: 29, 1: 31, 2: 34, 3: 32, 4: 21, 5: 19, 6: 34}
-[0, 1, 2, 3, 4, 5, 6]
+List of CLIQUE memberships levels : 
+ {0: 136, 1: 140, 2: 119, 3: 174, 4: 83, 5: 57, 6: 125, 7: 166}
+Total CLIQUE counted = 8
 ```
 
 

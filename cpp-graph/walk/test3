@@ -1,0 +1,63 @@
+Partition 0 (16 communities)
+community 0 = {0}
+community 1 = {1}
+community 2 = {2}
+community 3 = {3}
+community 4 = {4}
+community 5 = {5}
+community 6 = {6}
+community 7 = {7}
+community 8 = {8}
+community 9 = {9}
+community 10 = {10}
+community 11 = {11}
+community 12 = {12}
+community 13 = {13}
+community 14 = {14}
+community 15 = {15}
+
+Partition 1 (15 communities)
+community 1 + community 2 --> community 16
+
+Partition 2 (14 communities)
+community 9 + community 14 --> community 17
+
+Partition 3 (13 communities)
+community 0 + community 16 --> community 18
+
+Partition 4 (12 communities)
+community 7 + community 18 --> community 19
+
+Partition 5 (11 communities)
+community 12 + community 17 --> community 20
+
+Partition 6 (10 communities)
+community 5 + community 19 --> community 21
+
+Partition 7 (9 communities)
+community 11 + community 13 --> community 22
+
+Partition 8 (8 communities)
+community 4 + community 21 --> community 23
+
+Partition 9 (7 communities)
+community 6 + community 23 --> community 24
+
+Partition 10 (6 communities)
+community 10 + community 22 --> community 25
+
+Partition 11 (5 communities)
+community 8 + community 20 --> community 26
+
+Partition 12 (4 communities)
+community 3 + community 24 --> community 27
+
+Partition 13 (3 communities)
+community 15 + community 26 --> community 28
+
+Partition 14 (2 communities)
+community 25 + community 28 --> community 29
+
+Partition 15 (1 communities)
+community 27 + community 29 --> community 30
+

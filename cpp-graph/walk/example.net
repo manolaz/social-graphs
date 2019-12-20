@@ -3,22 +3,13 @@
 0 4
 0 5
 2 4
-
-# a comment line starts with a "#"
-# empty line are allowed
-# vertices must be consecutive integers starting from 0
-
 2 5
 2 1
 2 6
-# the line above mean that there is an edges between 2 and 6 (with weight 1.0)
-
 3 7
 4 10
 4 1
 5 7
-# the line above mean that there is an edges between 5 and 7 (with weight 3.2)
-
 5 11
 1 7
 7 6

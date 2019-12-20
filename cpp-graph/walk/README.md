@@ -9,3 +9,5 @@ OUTPUT RESULTS: -o output_file_name
 MEMORY_LIMIT: -m2000
 example.net
 
+# Project
+https://www-complexnetworks.lip6.fr/~latapy/PP/walktrap.html

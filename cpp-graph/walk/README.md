@@ -2,8 +2,8 @@
 example.net
 
 ## Run program
- ./walktrap example.net  -o test2 -m400
-
+ ./walktrap net/graph.net  -o result1.txt -m2000
+ ./walktrap net/graph.net  -o result2.txt -d1 -s -b
 ### Argument:
 OUTPUT RESULTS: -o output_file_name
 MEMORY_LIMIT: -m2000

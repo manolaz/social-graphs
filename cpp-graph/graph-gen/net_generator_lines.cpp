@@ -41,8 +41,7 @@ void GenRandomGraphs(int NOEdge, int NOVertex)
             {
                 if (edge[j][0] == i + 1)
                 {
-                    myfile << "\n" << i + 1;
-                    myfile << edge[j][1] << " ";
+                    myfile << edge[j][1] << " " << "\n" << i;
                     count++;
                 }
                 else if (edge[j][1] == i + 1)
@@ -63,7 +62,7 @@ int main()
     cout << "Random graph generation: ";
     n = 500 + rand() % 6;
     cout << "\nThe graph has " << n << " vertices";
-    e = rand() % ((n * (n - 1)) / 2);
+    e = rand() % ((n * (n - 1)) / 3);
     cout << "\nand has " << e << " edges.";
     GenRandomGraphs(e, n);
 }
